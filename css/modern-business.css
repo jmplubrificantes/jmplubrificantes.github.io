@@ -5,25 +5,61 @@
  */
 
 body {
-  padding-top: 54px;
+    padding-top: 54px;
 }
 
 @media (min-width: 992px) {
-  body {
-    padding-top: 56px;
-  }
+    body {
+        padding-top: 56px;
+    }
 }
 
 .carousel-item {
-  height: 65vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .portfolio-item {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.nav-tabs {
+    border-bottom: 3px solid #fff;
+}
+
+.bg-dark {
+    background-color: #fff !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #000;
+    font-size: 20px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #f90101;
+    font-weight: bold;
+}
+
+.foot-design {
+    padding: 100px 100px 80px 150px;
+    background-color: #9b0000;
+    right: 700px;
+}
+
+.design-text {
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    padding-right: 80px;
+}
+
+.maps {
+    right: 800px;
 }
